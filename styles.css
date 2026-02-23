@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4f1;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff2f92;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff2f92;
+    margin-bottom: 15px;
+}
+
+section img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+section a {
+    color: #ff2f92;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: #e01976;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background-color: #ffe4f1;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    color: #ff2f92;
+}
+
+tbody tr:hover {
+    background-color: #fff5fa;
+}
+
+#contato {
+    text-align: left;
+}
+
+#contato form {
+    background-color: #ffe4f1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 420px;
+    margin: 20px 0;
+}
+
+#contato label {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+#contato input,
+#contato select,
+#contato textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+#contato input:focus,
+#contato select:focus,
+#contato textarea:focus {
+    outline: 2px solid #ff2f92;
+    border-color: #ff2f92;
+}
+
+#contato input[type="checkbox"] {
+    width: auto;
+    margin-top: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-top: 0;
+}
+
+.checkbox-container label {
+    margin-top: 0;
+    display: inline;
+}
+
+#contato input[type="submit"] {
+    background-color: #ff2f92;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#contato input[type="submit"]:hover {
+    background-color: #e01976;
+}
+
+footer {
+    background-color: #ff2f92;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer section#contato {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+}
+
+footer > p {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
