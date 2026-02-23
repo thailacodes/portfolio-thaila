@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
 }
 
+
 header {
     background-color: #ff2f92;
     color: white;
@@ -33,12 +34,12 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
-    transition: opacity 0.3s ease;
 }
 
 nav a:hover {
     opacity: 0.8;
 }
+
 
 section {
     background-color: white;
@@ -53,18 +54,9 @@ section h2 {
     margin-bottom: 15px;
 }
 
-section img {
-    max-width: 150px;
-    border-radius: 50%;
-    display: block;
-    margin-bottom: 10px;
-    object-fit: cover;
-}
-
 section a {
     color: #ff2f92;
     text-decoration: none;
-    transition: all 0.3s ease;
 }
 
 section a:hover {
@@ -72,15 +64,23 @@ section a:hover {
     color: #e01976;
 }
 
-aside {
+
+#sobre img {
+    max-width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+#sobre aside {
     margin-top: 20px;
 }
 
-aside ul {
+#sobre aside ul {
     list-style: none;
 }
 
-ul li {
+#sobre ul li {
     margin: 5px 0;
 }
 
@@ -141,13 +141,6 @@ tbody tr:hover {
     font-family: Arial, sans-serif;
 }
 
-#contato input:focus,
-#contato select:focus,
-#contato textarea:focus {
-    outline: 2px solid #ff2f92;
-    border-color: #ff2f92;
-}
-
 #contato input[type="checkbox"] {
     width: auto;
     margin-top: 10px;
@@ -178,30 +171,16 @@ tbody tr:hover {
     cursor: pointer;
     border-radius: 4px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
 }
 
 #contato input[type="submit"]:hover {
     background-color: #e01976;
 }
-
 footer {
     background-color: #ff2f92;
     color: white;
     padding: 20px;
     margin-top: 30px;
-}
-
-footer section#contato {
-    background-color: white;
-    margin-bottom: 40px;
-    padding: 20px;
-    border-radius: 8px;
-    color: #333;
-}
-
-footer > p {
-    margin-top: 40px;
     text-align: center;
-    color: white;
+    font-size: 14px;
 }
